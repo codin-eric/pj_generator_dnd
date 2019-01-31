@@ -30,7 +30,7 @@ menor = min(dado1,dado2,dado3,dado4)
 
 res = suma - menor
 
-print("Fuerza %i"% suma)
+print("Fuerza %i"% res)
 
 dado1 = random.randint(1,6)
 dado2 = random.randint(1,6)
@@ -42,7 +42,7 @@ menor = min(dado1,dado2,dado3,dado4)
 
 res = suma - menor
 
-print("Destreza %i"% suma)
+print("Destreza %i"% res)
 
 dado1 = random.randint(1,6)
 dado2 = random.randint(1,6)
@@ -54,20 +54,7 @@ menor = min(dado1,dado2,dado3,dado4)
 
 res = suma - menor
 
-print("Constitución %i"% suma)
-
-
-dado1 = random.randint(1,6)
-dado2 = random.randint(1,6)
-dado3 = random.randint(1,6)
-dado4 = random.randint(1,6)
-
-suma = dado1 + dado2 + dado3 + dado4
-menor = min(dado1,dado2,dado3,dado4)
-
-res = suma - menor
-
-print("Inteligencia %i"% suma)
+print("Constitución %i"% res)
 
 
 dado1 = random.randint(1,6)
@@ -80,7 +67,7 @@ menor = min(dado1,dado2,dado3,dado4)
 
 res = suma - menor
 
-print("Sabiduria %i"% suma)
+print("Inteligencia %i"% res)
 
 
 dado1 = random.randint(1,6)
@@ -93,4 +80,17 @@ menor = min(dado1,dado2,dado3,dado4)
 
 res = suma - menor
 
-print("Carisma %i"% suma)
+print("Sabiduria %i"% res)
+
+
+dado1 = random.randint(1,6)
+dado2 = random.randint(1,6)
+dado3 = random.randint(1,6)
+dado4 = random.randint(1,6)
+
+suma = dado1 + dado2 + dado3 + dado4
+menor = min(dado1,dado2,dado3,dado4)
+
+res = suma - menor
+
+print("Carisma %i"% res)
